@@ -35,9 +35,9 @@ System requirement:
 
 2. File I/O. 
 
-2.1 Text reorganize: folder [file_io](data/file_io) include 28 text files with "messtext" as the prefix. Each file includes one or more sentences of the introduction of school of public health, Zhejiang University (in Chinese and English). Each sentence starts with a prefix "[ENx]" or "[CNx]", where "EN"/"CN" represent English and Chinese and "x" is the order number of the corresponding sentence. Please write a code to read those files and recover them in order and save the output in file "PHSZJU.txt". The output file should be the same with file [original.txt](data/file_io/original.txt)
+* 2.1 Text reorganize: folder [file_io](data/file_io) includes 28 text files with "messtext" as the prefix. Each file includes one or more sentences of the introduction of school of public health, Zhejiang University (in Chinese and English). Each sentence starts with a prefix "[ENx]" or "[CNx]", where "EN"/"CN" represent English and Chinese and "x" is the order number of the corresponding sentence. Please write a code to read those files and recover them in order and save the output in file "PHSZJU.txt". The output file should be the same with file [original.txt](data/file_io/original.txt)
 
-2.2 Save the output file in 2.1 into a '.csv' file, store the ordered sentences by row.
+* 2.2 Save the output file in 2.1 into a '.csv' file, store the ordered sentences by row (one sentence per row).
 
 
 ## Statistical Machine Learning
