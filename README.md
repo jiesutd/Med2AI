@@ -42,12 +42,21 @@ System requirement:
 
 ## Statistical Machine Learning
 
+* Logistic regression
+* Support vector machine
+* Random forest
+* XGBoost
+
 ## Deep Learning
+
 
 ## Natural Language Processing
 
+
 ## Computer Vision
 
+
 ## Comprehensive Project
+
 
 ## Conclusion
