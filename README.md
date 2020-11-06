@@ -49,11 +49,19 @@ System requirement:
 
 ## Deep Learning
 
+* Representations
+* Feedforward Network
+* CNN
+* LSTM
 
 ## Natural Language Processing
 
+* Preprocessing
+* TF-IDF
+* Transformer/BERT
 
 ## Computer Vision
+
 
 
 ## Comprehensive Project
