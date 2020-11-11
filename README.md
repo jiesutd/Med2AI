@@ -1,14 +1,14 @@
 # Med2AI: A Project-based Artificial Intelligence Training for Medical Students
 
-* [0. Introduction](#0._Introduction)
-* [1. Python Basic](#1._Python-Basic)
-* [2. Linux Server Basic](#2._Linux-Server-Basic)
-* [3. Statistical Machine Learning](#3._Statistical-Machine-Learning)
-* [4. Deep Learning](#Deep-Learning)
-* [5. Natural Language Processing](#Natural-Language-Processing)
-* [6. Computer Vision](#Computer-Vision)
-* [7. Comprehensive Project](#Comprehensive-Project)
-* [8. Conclusion](#Conclusion)
+* [0. Introduction](#0-Introduction)
+* [1. Python Basic](#1-Python-Basic)
+* [2. Linux Server Basic](#2-Linux-Server-Basic)
+* [3. Statistical Machine Learning](#3-Statistical-Machine-Learning)
+* [4. Deep Learning](#4-Deep-Learning)
+* [5. Natural Language Processing](#5-Natural-Language-Processing)
+* [6. Computer Vision](#6-Computer-Vision)
+* [7. Comprehensive Project](#7-Comprehensive-Project)
+* [8. Conclusion](#8-Conclusion)
 
 ## 0. Introduction
 
@@ -33,20 +33,20 @@ Books:
 * 统计学习方法 李航 清华大学出版社
 * 机器学习  周志华  清华大学出版社
 
-## Python Basic
+## 1. Python Basic
 
-1. [Use of list/dict]
-
-
-
-2. File I/O. 
-
-* 2.1 Text reorganize: folder [file_io](data/file_io) includes 28 text files with "messtext" as the prefix. Each file includes one or more sentences of the introduction of school of public health, Zhejiang University (in Chinese and English). Each sentence starts with a prefix "[ENx]" or "[CNx]", where "EN"/"CN" represent English and Chinese and "x" is the order number of the corresponding sentence. Please write a code to read those files and recover them in order and save the output in file "PHSZJU.txt". The output file should be the same with file [original.txt](data/file_io/original.txt)
-
-* 2.2 Save the output file in 2.1 into a '.csv' file, store the ordered sentences by row (one sentence per row).
+1.1 [Use of list/dict]
 
 
-## Linux Server Basic
+
+1.2. File I/O. 
+
+* 1.2.1 Text reorganize: folder [file_io](data/file_io) includes 28 text files with "messtext" as the prefix. Each file includes one or more sentences of the introduction of school of public health, Zhejiang University (in Chinese and English). Each sentence starts with a prefix "[ENx]" or "[CNx]", where "EN"/"CN" represent English and Chinese and "x" is the order number of the corresponding sentence. Please write a code to read those files and recover them in order and save the output in file "PHSZJU.txt". The output file should be the same with file [original.txt](data/file_io/original.txt)
+
+* 1.2.2 Save the output file in 2.1 into a '.csv' file, store the ordered sentences by row (one sentence per row).
+
+
+## 2. Linux Server Basic
 
 * Use ssh to remote connect a linux server (I will provide the server ip and the user account/passwd)
 * Change password 
@@ -57,7 +57,7 @@ Books:
 * Run code in the background of server (even when you are disconnected): `nohup python #your_code.py 1>#your_logfile 2>&1 &` 
 
 
-## Statistical Machine Learning
+## 3. Statistical Machine Learning
 
 Build the heart failure prediction model using the statistical machine learning models (Logistic regression, SVM, random forest, XGBoost).  
 
@@ -85,25 +85,25 @@ Tips:
 
 3.4 *XGBoost
 
-## Deep Learning
+## 4. Deep Learning
 
 * Representations
 * Feedforward Network
 * CNN
 * LSTM
 
-## Natural Language Processing
+## 5. Natural Language Processing
 
 * Preprocessing
 * TF-IDF
 * Word embeddings
 * Transformer/BERT
 
-## Computer Vision
+## 6. Computer Vision
 
 
 
-## Comprehensive Project
+## 7. Comprehensive Project
 
 
-## Conclusion
+## 8. Conclusion
