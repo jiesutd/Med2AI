@@ -50,7 +50,7 @@ Books:
 
 * Use ssh to remote connect a linux server (I will provide the server ip and the user account/passwd)
 * Change password 
-* Basic commands: `cd`, `cp`, `rm` (careful)
+* Basic commands: `cd`, `cp`,`mv`, `rm` (careful)
 * Upload/download files to/from the remote server (`scp #localfile #your_account@#server_ip:#directory`, `scp #your_account@#server_ip:#directory #localdirectory`)
 * Run your python code through terminal: `python #your_code.py`
 * Monitor the running processes in the server: `top` , `htop`
@@ -71,7 +71,7 @@ Settings:
 Requirements: 
 * show the accuracy of the model on the test dataset.
 * given a new example, predict the heart failure results
-* show the predicted probabilities of 
+* show the predicted probability of each new example
 
 Tips: 
 * use package `sklearn` (except XGBoost)
