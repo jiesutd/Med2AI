@@ -1,16 +1,16 @@
 # Med2AI: A Project-based Artificial Intelligence Training for Medical Students
 
-* [0. Introduction](#Introduction)
-* [1. Python Basic](#Python-Basic)
-* [2. Linux Server Basic](#Linux-Server-Basic)
-* [3. Statistical Machine Learning](#Statistical-Machine-Learning)
+* [0. Introduction](#0._Introduction)
+* [1. Python Basic](#1._Python-Basic)
+* [2. Linux Server Basic](#2._Linux-Server-Basic)
+* [3. Statistical Machine Learning](#3._Statistical-Machine-Learning)
 * [4. Deep Learning](#Deep-Learning)
 * [5. Natural Language Processing](#Natural-Language-Processing)
 * [6. Computer Vision](#Computer-Vision)
 * [7. Comprehensive Project](#Comprehensive-Project)
 * [8. Conclusion](#Conclusion)
 
-## Introduction
+## 0. Introduction
 
 This repository is under development and confidential. We will open it to public once it is finished.
 
@@ -64,7 +64,6 @@ Build the heart failure prediction model using the statistical machine learning 
 Dataset: https://www.kaggle.com/andrewmvd/heart-failure-clinical-data
 
 Settings: 
-
 * split the dataset into training/test dataset. 
 * Training dataset: odd rows (line 1,3,5,7...); 
 * Test dataset: even rows (line 2,4,6,8...) 
@@ -75,7 +74,6 @@ Requirements:
 * show the predicted probabilities of 
 
 Tips: 
-
 * use package `sklearn` (except XGBoost)
 * example https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
 
