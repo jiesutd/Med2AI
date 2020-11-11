@@ -1,4 +1,4 @@
-# Med2AI: A Project-based Artificial Intelligence Training for Medical Students
+# Med2AI: A Project-based Artificial Intelligence Training Course for Medical Students
 
 * [0. Introduction](#0-Introduction)
 * [1. Python Basic](#1-Python-Basic)
