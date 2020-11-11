@@ -70,7 +70,6 @@ Settings:
 * Test dataset: even rows (line 2,4,6,8...) 
 
 Requirements: 
-
 * show the accuracy of the model on the test dataset.
 * given a new example, predict the heart failure results
 * show the predicted probabilities of 
@@ -81,8 +80,11 @@ Tips:
 * example https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
 
 3.1 Logistic regression
+
 3.2 Support vector machine (SVM)
+
 3.3 Random forest
+
 3.4 *XGBoost
 
 ## Deep Learning
