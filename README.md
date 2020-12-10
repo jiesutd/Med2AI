@@ -35,7 +35,7 @@ Books:
 
 ## 1. Python Basic
 
-1.1 [Use of list/dict]
+1.1 Familiar with `list`, `dict` and basic python skills.
 
 
 
