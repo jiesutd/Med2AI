@@ -94,7 +94,7 @@ Tips:
 
 ## 5. Natural Language Processing
 
-### 5.1 Spam email classification (TREC 2006 Spam Track)**
+### 5.1 Spam email classification (TREC 2006 Spam Track)
 Build a natural language processing model to identify spam emails automatically.
 
 #### Data:
@@ -117,7 +117,8 @@ https://plg.uwaterloo.ca/~gvcormac/treccorpus06/, please use the English corpus 
 * Precision
 * AUC
 
-
+Project 5.1 ends here.
+-------------------------
 * Preprocessing
 * TF-IDF
 * Word embeddings
