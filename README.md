@@ -103,9 +103,9 @@ https://plg.uwaterloo.ca/~gvcormac/treccorpus06/, please use the English corpus 
 
 #### Preprocessing:
 
-_1. Extract all the emails from all the subfolders of `trec06p/data/`, and map the labels (in `trec06p/full/index`) with the emails.__
-_2. Remove format content of the email, e.g. `<tr>`, `<td width="100%">`,`<p align="center">`. Hint: remove any context between `<>` (be careful for the cases `<tr>  this is the email content <td width="100%">`, please keep `this is the email content` rather than remove all of them).
-_3. Select the first 20000 emails as the training set, email from 20001-25000 as development dataset, emails from 25001-37822 as the test dataset. 
+* Extract all the emails from all the subfolders of `trec06p/data/`, and map the labels (in `trec06p/full/index`) with the emails.
+* Remove format content of the email, e.g. `<tr>`, `<td width="100%">`,`<p align="center">`. Hint: remove any context between `<>` (be careful for the cases `<tr>  this is the email content <td width="100%">`, please keep `this is the email content` rather than remove all of them).
+* Select the first 20000 emails as the training set, email from 20001-25000 as development dataset, emails from 25001-37822 as the test dataset. 
 
 #### Methods:
 
@@ -117,7 +117,7 @@ _3. Select the first 20000 emails as the training set, email from 20001-25000 as
 * Precision
 * AUC
 
-Project 5.1 ends here.
+**--------------Project 5.1 ends here.-----------**
 
 
 * Preprocessing
