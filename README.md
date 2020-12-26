@@ -94,27 +94,28 @@ Tips:
 
 ## 5. Natural Language Processing
 
-5.1 Spam email classification (TREC 2006 Spam Track). Build a natural language processing model to identify spam emails automatically.
+**5.1 Spam email classification (TREC 2006 Spam Track)**
+Build a natural language processing model to identify spam emails automatically.
 
-Data: https://plg.uwaterloo.ca/~gvcormac/treccorpus06/, please use the English corpus first `trec06p.tgz`. It includes about 37822 emails, of which 24912 emails are spam (see `trec06p/full/index`). Please refer `trec06p/README.txt` for more details about the dataset.
+**Data:** 
 
-Preprocessing: 
+https://plg.uwaterloo.ca/~gvcormac/treccorpus06/, please use the English corpus first `trec06p.tgz`. It includes about 37822 emails, of which 24912 emails are spam (see `trec06p/full/index`). Please refer `trec06p/README.txt` for more details about the dataset.
+
+**Preprocessing:** 
 
 * 1. Extract all the emails from all the subfolders of `trec06p/data/`, and map the labels (in `trec06p/full/index`) with the emails.
 * 2. Remove format content of the email, e.g. `<tr>`, `<td width="100%">`,`<p align="center">`. Hint: remove any context between `<>` (be careful for the cases `<tr>  this is the email content <td width="100%">`, please keep `this is the email content` rather than remove all of them).
 * 3. Select the first 20000 emails as the training set, email from 20001-25000 as development dataset, emails from 25001-37822 as the test dataset. 
 
-Methods:
+**Methods:**
 
 * 1. From text to numbers: use one-hot representation to convert each email as a binary vector. Reference: https://medium.com/zero-equals-false/one-hot-encoding-129ccc293cda
 * 2. Predictive model: logistic regression. 
 
-Evaluation:
+**Evaluation:**
 
 * 1. Precision
 * 2. AUC
-
-附加题：
 
 
 * Preprocessing
