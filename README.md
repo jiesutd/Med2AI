@@ -117,7 +117,7 @@ https://plg.uwaterloo.ca/~gvcormac/treccorpus06/, please use the English corpus 
 * Precision
 * AUC
 
-**--------------Project 5.1 ends here.-----------**
+**------------------------------------------ Project 5.1 ends here.--------------------------------**
 
 
 * Preprocessing
