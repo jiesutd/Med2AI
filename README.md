@@ -118,7 +118,8 @@ https://plg.uwaterloo.ca/~gvcormac/treccorpus06/, please use the English corpus 
 * AUC
 
 Project 5.1 ends here.
--------------------------
+
+
 * Preprocessing
 * TF-IDF
 * Word embeddings
