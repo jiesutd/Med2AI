@@ -45,6 +45,7 @@ Books:
 
 * 1.2.2 Save the output file in 2.1 into a '.csv' file, store the ordered sentences by row (one sentence per row).
 
+1.3. Get familiar with packages: `pandas`, `nltk`, `sklearn`
 
 ## 2. Linux Server Basic
 
