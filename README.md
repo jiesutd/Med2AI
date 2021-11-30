@@ -107,8 +107,8 @@ As the deep neural network structures requires large scale matrix calculation, i
 * Ylab1: Nvidia 2080TI x 2 
 * Ylab2: Nvidia 3090 x 1
 
-#### pytorch
-`pytorch` is one of the most popular deep learning packages (others include `tensorflow`, `mxnet` .etc.). It is the most popular development package in academia. 
+#### PyTorch
+`PyTorch` is one of the most popular deep learning packages (others include `tensorflow`, `mxnet` .etc.). It is the most popular development package in academia. 
 
 #### NCRF++ for NLP
 [NCRF++](https://github.com/jiesutd/NCRFpp) is developed by Jie Yang for text representation with various neural network structures. This framework supports sequence labeling and text classification tasks with a flexible, hierarchial, and configurable way. Currently, it supports:
