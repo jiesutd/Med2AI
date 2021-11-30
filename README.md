@@ -97,10 +97,27 @@ Build a heart failure prediction model using statistical machine learning algori
 
 
 ## 4. Deep Learning
-* Representations
+Statistical machine machine models require various features (defined by human e.g. one-hot, tf-idf) to represent the input data. Deep learning model utilize the neural network structure to extract features automatically. It learns the features from the data based on the target labels. 
+
+### Tools
+
+#### GPU support
+As the deep neural network structures requires large scale matrix calculation, it is ideal to use GPU to conduct the matrix calculation in parallel. If you want to train complex deep learning models or on large training dataset, if is necessary to experiment on server with GPU. YLab has two servers with GPU support:
+
+* Ylab1: Nvidia 2080TI x 2 
+* Ylab2: Nvidia 3090 x 1
+
+#### pytorch
+`pytorch` is one of the most popular deep learning packages (others include `tensorflow`, `mxnet` .etc.). It is the most popular development package in academia. 
+
+#### NCRF++ for NLP
+[NCRF++](https://github.com/jiesutd/NCRFpp) is developed by Jie Yang for text representation with various neural network structures. This framework supports sequence labeling and text classification tasks with a flexible, hierarchial, and configurable way. Currently, it supports:
+
 * Feedforward Network
-* CNN
-* LSTM
+* Convolutional Neural Network (CNN)
+* Recurrent Neural Networks (RNN), including GRU, LSTM
+* Transformer, including pretrained models BERT, RoBERTa, .etc.
+* User-defined neural features
 
 ## 5. Natural Language Processing
 Natural language processing(NLP) is to analyze texts with information technology, especially the artificial intelligence technology. 
