@@ -12,7 +12,8 @@
 
 ## 0. Introduction
 
-This repository is under development and confidential. We will make it public once it is well .
+This project-based learning course aims to train medical students with state-of-the-art artificial intelligence techniques and tools step by step. 
+This repository is under development. I am working on adding more projects and examples to make it more practical for users with medical backgrounds.
 
 xxxx
 
